@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CÁLCULO IMC</title>
+   <link rel="stylesheet" href="CSS/Imc.css">
+   <script src="JSS/Imc.js" defer></script>
+   
+
+</head>
+<body>
+        </div>
+    <div id="geral">
+        <h2>CÁLCULO IMC</h2>
+        
+        <div id="form" class="caixa ">
+            <h3>DADOS PESSOAIS</h3>
+
+            <label for="nome">NOME: </label>
+            <input type="text" name="nome" id="nome" class="input" maxlength="60" placeholder="Informe seu Nome"/>
+
+            <label for="altura">ALTURA: </label>
+            <input type="text" name="altura" id="altura" class="input" maxlength="4" placeholder="Informe sua Altura"/>
+
+            <label for="peso">PESO: </label>
+            <input type="text" name="peso" id="peso" class="input" maxlength="4" placeholder="Informe seu Peso"/>
+
+            <div class="areaBtn">
+                <button id="btnCalcular"> CALCULAR </button>
+            </div>
+        </div>
+        
+        <div id="resultado" class="caixa ocultar">
+            <h3> RESULTADOS: </h3>
+            <div id="divNome" class="result">
+                <span> Nome: </span>
+            </div>
+            <div id="divIMC" class="result">
+                <span> IMC: </span>
+            </div>
+            <div id="divSituacao" class="result">
+                <span> Situação: </span>
+            </div>
+            <div class="areaBtn">
+                <button id="btnVoltar"> VOLTAR </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
